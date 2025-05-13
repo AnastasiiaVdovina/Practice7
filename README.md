@@ -25,3 +25,9 @@ FILE *popen(const char *command, const char *mode);
 4) Зчитуємо кожен рядок виводу команди rwho.
 5) Передаємо цей рядок у процес more за допомогою fputs().
 6) Завершиуємо обидва процеси за допомогою pclose().
+
+Отримали такий результат:
+
+![image](https://github.com/user-attachments/assets/29026aae-e0bd-455d-a432-bdb64ff833ef)
+
+Який означає, що rwhod не запущений на інших машинах, тому вивід порожній. 
